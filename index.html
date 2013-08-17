@@ -60,7 +60,6 @@
         font-size: 18px;
         line-height: 24px;
       }
-
       /* Video pitch and Action */
       .pitch {
         padding: 2.5% 0%;
@@ -78,7 +77,6 @@
       .statistics h3, .statistics p {
         color: white;
       }
-
       /* Marketing Copy and Footer */
       .copy {
         padding-top: 2.5%;
@@ -98,7 +96,6 @@
       .footer a {
         color: #ccccff;
       }
-      
       /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */      
       div.addthis_toolbox {
             width:250px;
@@ -107,7 +104,6 @@
     </style>
 <!-- Start of GA-->
 <script type="text/javascript">
-
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-43123097-1']);
   _gaq.push(['_trackPageview']);
@@ -117,15 +113,10 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
 </script>
 <!-- end GA-->
-
-
-    
   </head>
   <body>
-
     <!-- Mobile-friendly navbar adapted from example. -->
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -142,13 +133,13 @@
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
+	      <li><a href="/orders">Orders</a></li>	
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
-
     <!-- We use row-fluid inside containers to achieve a resizable layout. -->
     <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
     <!-- http://stackoverflow.com/a/12270322 -->
@@ -212,8 +203,7 @@
 <a class="coinbase-button" data-code="aae97481b6c1c3db2a39a19cffe15c24" data-button-style="custom_large" href="https://coinbase.com/checkouts/aae97481b6c1c3db2a39a19cffe15c24">Pay With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
 	        <!--<button class="btn btn-success btn-large">Contact</button>-->
           </div>
-          <div class="span8 offset2 social">
-          
+          <div class="span8 offset2 social">          
             <!-- Social buttons are not included in default Bootstrap. -->
             <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
             <!--<button class="btn btn-twitter"><a title="click to go to twitter" href="https://twitter.com/"><i class="icon-twitter"></i> | Twitter </a></button>
@@ -229,12 +219,10 @@
             </div>
             <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
             <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-520990e139a350e8"></script>
-            <!-- AddThis Button END -->
-          
+            <!-- AddThis Button END -->       
           </div>
         </div>
       </div>
-
       <!-- Beyond this part the marketing copy begins. -->
       <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
       <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
@@ -259,7 +247,6 @@
           </p>
         </div>
       </div>
-
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>
@@ -280,7 +267,6 @@
           <img class="img-polaroid" src="http://placehold.it/480x300">
         </div>
       </div>
-
       <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
       <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
       <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
@@ -354,10 +340,6 @@
   ga('send', 'pageview');
 
 </script>
-
 <!--GA end here -->
-
-
-
   </body>
 </html>
