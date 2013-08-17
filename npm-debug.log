@@ -1,0 +1,265 @@
+info it worked if it ends with ok
+verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'jshint' ]
+info using npm@1.1.4
+info using node@v0.6.19
+verbose config file /home/ubuntu/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose cache add [ 'jshint', null ]
+silly cache add: name, spec, args [ undefined, 'jshint', [ 'jshint', null ] ]
+verbose parsed url { pathname: 'jshint', path: 'jshint', href: 'jshint' }
+verbose addNamed [ 'jshint', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'jshint', '', false ]
+verbose raw, before any munging jshint
+verbose url resolving [ 'https://registry.npmjs.org/', './jshint' ]
+verbose url resolved https://registry.npmjs.org/jshint
+verbose etag "3TFMNLQFHJHG98OWZQ9WTKXGR"
+http GET https://registry.npmjs.org/jshint
+http 200 https://registry.npmjs.org/jshint
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"4OXO24CBPIVPQDQCHHDPIPG91"',
+silly get cb     date: 'Sat, 17 Aug 2013 08:22:06 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '164474' } ]
+silly name, range, hasData 2 [ 'jshint', '', true ]
+silly versions [ 'jshint',
+silly versions   [ '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.4.0',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.5.2',
+silly versions     '0.5.3',
+silly versions     '0.5.4',
+silly versions     '0.5.5',
+silly versions     '0.5.6',
+silly versions     '0.5.7',
+silly versions     '0.5.8',
+silly versions     '0.5.9',
+silly versions     '0.6.0',
+silly versions     '0.6.1',
+silly versions     '0.6.2',
+silly versions     '0.6.3',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.7.2',
+silly versions     '0.7.3',
+silly versions     '0.8.0',
+silly versions     '0.8.1',
+silly versions     '0.8.2',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '1.0.0',
+silly versions     '1.1.0',
+silly versions     '2.0.0',
+silly versions     '2.0.1',
+silly versions     '2.1.0',
+silly versions     '2.1.1',
+silly versions     '2.1.2',
+silly versions     '2.1.3',
+silly versions     '2.1.4',
+silly versions     '2.1.5',
+silly versions     '2.1.6',
+silly versions     '2.1.7',
+silly versions     '2.1.8',
+silly versions     '2.1.9',
+silly versions     '2.1.10' ] ]
+verbose bin dist [ '0.6-ares1.9.1-evundefined-openssl1.0.1c-v83.8.9.20-linux-x64-3.8.0-19-generic',
+verbose bin dist   { shasum: '0c015ec5bc5ad65c11c4b5152f221f24b7af5522',
+verbose bin dist     tarball: 'http://registry.npmjs.org/jshint/-/jshint-2.1.10.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/jshint/-/jshint-2.1.10.tgz',
+verbose addRemoteTarball   '0c015ec5bc5ad65c11c4b5152f221f24b7af5522' ]
+verbose mkdir (expected) error ENOENT, stat '/tmp/npm-1376727727264'
+verbose mkdir (expected) error ENOENT, stat '/tmp/npm-1376727727264/1376727727264-0.010121761821210384'
+verbose mkdir done: /tmp/npm-1376727727264/1376727727264-0.010121761821210384 755
+verbose fetch to /tmp/npm-1376727727264/1376727727264-0.010121761821210384/tmp.tgz
+http GET https://registry.npmjs.org/jshint/-/jshint-2.1.10.tgz
+http 200 https://registry.npmjs.org/jshint/-/jshint-2.1.10.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 15095
+info shasum 0c015ec5bc5ad65c11c4b5152f221f24b7af5522
+info shasum /tmp/npm-1376727727264/1376727727264-0.010121761821210384/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm'
+verbose mkdir done: /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1376727727264/1376727727264-0.010121761821210384/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/README.md
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/bin
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/bin/land
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/bin/apply
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/bin/changelog
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/bin/jshint
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/bin/build
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src/reg.js
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src/cli.js
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src/state.js
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src/style.js
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src/jshint.js
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src/lex.js
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src/vars.js
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src/messages.js
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src/reporters
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src/reporters/default.js
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src/reporters/non_error.js
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src/reporters/checkstyle.js
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src/reporters/jslint_xml.js
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src/platforms
+silly asyncMap in gTP /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package/src/platforms/rhino.js
+silly chmod package 755
+silly chmod bin 755
+silly chmod src 755
+silly chmod reporters 755
+silly chmod platforms 755
+verbose gunzed /tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package
+verbose rm'ed /tmp/npm-1376727727264/1376727727264-0.010121761821210384/package
+verbose renamed [ '/tmp/npm-1376727727264/1376727727264-0.010121761821210384/___package.npm/package',
+verbose renamed   '/tmp/npm-1376727727264/1376727727264-0.010121761821210384/package' ]
+verbose caching /tmp/npm-1376727727264/1376727727264-0.010121761821210384/package/package.json
+verbose loadDefaults jshint@2.1.10
+verbose tarball contents [ 'tmp.tgz', 'package' ]
+verbose from cache /tmp/npm-1376727727264/1376727727264-0.010121761821210384/package/package.json
+verbose pack /tmp/npm-1376727727264/1376727727264-0.010121761821210384/package
+verbose pack /tmp/npm-1376727727264/1376727727264-0.010121761821210384/package /home/ubuntu/.npm/jshint/2.1.10/package.tgz
+silly makeList /tmp/npm-1376727727264/1376727727264-0.010121761821210384/package
+silly dir, dirLen [ '/tmp/npm-1376727727264/1376727727264-0.010121761821210384/package',
+silly dir, dirLen   66 ]
+verbose tarball /home/ubuntu/.npm/jshint/2.1.10/package.tgz
+verbose parent /tmp/npm-1376727727264/1376727727264-0.010121761821210384/package
+verbose mkdir (expected) error ENOENT, stat '/home/ubuntu/.npm/jshint/2.1.10/___package.npm'
+verbose mkdir done: /home/ubuntu/.npm/jshint/2.1.10/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/ubuntu/.npm/jshint/2.1.10/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/package.json
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/bin
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/bin/land
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/bin/apply
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/bin/changelog
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/bin/jshint
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/bin/build
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src/reg.js
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src/cli.js
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src/state.js
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src/style.js
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src/jshint.js
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src/lex.js
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src/vars.js
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src/messages.js
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src/reporters
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src/reporters/default.js
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src/reporters/non_error.js
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src/reporters/checkstyle.js
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src/reporters/jslint_xml.js
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src/platforms
+silly asyncMap in gTP /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package/src/platforms/rhino.js
+silly chmod package 755
+verbose gunzed /home/ubuntu/.npm/jshint/2.1.10/___package.npm/package
+verbose rm'ed /home/ubuntu/.npm/jshint/2.1.10/package
+verbose renamed [ '/home/ubuntu/.npm/jshint/2.1.10/___package.npm/package',
+verbose renamed   '/home/ubuntu/.npm/jshint/2.1.10/package' ]
+verbose caching /home/ubuntu/.npm/jshint/2.1.10/package/package.json
+verbose loadDefaults jshint@2.1.10
+silly updated sha bytes 40960
+silly updated sha bytes 14482
+info shasum 0b8296797809e42d1220182717dccdfe2cd7217e
+info shasum /home/ubuntu/.npm/jshint/2.1.10/package.tgz
+verbose from cache /home/ubuntu/.npm/jshint/2.1.10/package/package.json
+verbose chmod /home/ubuntu/.npm/jshint/2.1.10/package.tgz 644
+verbose chown [ '/home/ubuntu/.npm/jshint/2.1.10/package.tgz', 1000, 1000 ]
+silly resolved [ { name: 'jshint',
+silly resolved     version: '2.1.10',
+silly resolved     homepage: 'http://jshint.com/',
+silly resolved     description: 'Static analysis tool for JavaScript',
+silly resolved     author: 
+silly resolved      { name: 'Anton Kovalyov',
+silly resolved        email: 'anton@kovalyov.net',
+silly resolved        url: 'http://anton.kovalyov.net/' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/jshint/jshint.git' },
+silly resolved     bugs: { url: 'https://github.com/jshint/jshint/issues' },
+silly resolved     bin: { jshint: './bin/jshint' },
+silly resolved     scripts: 
+silly resolved      { build: 'node make.js build',
+silly resolved        test: 'nodeunit tests tests/regression tests/unit',
+silly resolved        pretest: 'jshint src' },
+silly resolved     main: './src/jshint.js',
+silly resolved     dependencies: 
+silly resolved      { shelljs: '0.1.x',
+silly resolved        underscore: '1.4.x',
+silly resolved        cli: '0.4.x',
+silly resolved        minimatch: '0.x.x',
+silly resolved        'console-browserify': '0.1.x' },
+silly resolved     devDependencies: 
+silly resolved      { jshint: '2.1.x',
+silly resolved        shelljs: '0.1.x',
+silly resolved        browserify: '2.12.x',
+silly resolved        coveraje: '0.2.x',
+silly resolved        nodeunit: '0.8.x',
+silly resolved        sinon: '1.7.x' },
+silly resolved     jshintConfig: 
+silly resolved      { boss: true,
+silly resolved        node: true,
+silly resolved        strict: true,
+silly resolved        white: true,
+silly resolved        smarttabs: true,
+silly resolved        maxlen: 100,
+silly resolved        newcap: false,
+silly resolved        undef: true,
+silly resolved        unused: true,
+silly resolved        onecase: true,
+silly resolved        indent: 2 },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'https://github.com/jshint/jshint/blob/master/LICENSE' } ],
+silly resolved     preferGlobal: true,
+silly resolved     files: [ 'bin', 'src' ],
+silly resolved     _id: 'jshint@2.1.10',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.19',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '0b8296797809e42d1220182717dccdfe2cd7217e' },
+silly resolved     _from: 'jshint' } ]
+info into /usr/local/lib jshint@2.1.10
+info installOne jshint@2.1.10
+verbose from cache /home/ubuntu/.npm/jshint/2.1.10/package/package.json
+info unbuild /usr/local/lib/node_modules/jshint
+verbose mkdir (expected) error ENOENT, stat '/usr/local/lib/node_modules'
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /usr/local/lib/node_modules/jshint
+ERR! Could not create /usr/local/lib/node_modules/___jshint.npm
+ERR! error installing jshint@2.1.10
+info unbuild /usr/local/lib/node_modules/jshint
+verbose installOne cb jshint@2.1.10
+ERR! Error: EACCES, mkdir '/usr/local/lib/node_modules'
+ERR! 
+ERR! Please try running this command again as root/Administrator.
+ERR! 
+ERR! System Linux 3.8.0-19-generic
+ERR! command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "jshint"
+ERR! cwd /home/ubuntu/bitstarter
+ERR! node -v v0.6.19
+ERR! npm -v 1.1.4
+ERR! path /usr/local/lib/node_modules
+ERR! code EACCES
+ERR! message EACCES, mkdir '/usr/local/lib/node_modules'
+ERR! errno {}
+verbose exit [ 1, true ]
